@@ -102,7 +102,7 @@ available=♻️ 自动选择, server-tag-regex=.*, img-url=https://raw.githubus
 round-robin=🔮 负载均衡, server-tag-regex=.*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Round_Robin.png
 static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
-static=🙈 网易云音乐, 🚀 节点选择, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
+static=🎸网易云音乐, 🚀 节点选择, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
 static=🐟 漏网之鱼, 🚀 节点选择, ♻️ 自动选择, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 static=🇭🇰 香港节点, server-tag-regex=(?=.*(?i)(香港|HK|Hong))^((?!(?i)(IPLC|IEPL|game|专线|手游|游戏)).)*$, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/HK.png
@@ -165,7 +165,8 @@ https://api.dler.io/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbn
 # 国外域名等规则（轻量级）-代理
 https://api.dler.io/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlMaXRlLmxpc3Q&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
 # 网易云音乐
-https://raw.githubusercontent.com/Hedilict/QuantumultX/master/Filter/NetEaseCloudMusic.list, tag=🙈 网易云音乐, enabled=true
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/NetEaseCloudMusic.list, tag=🎸网易云音乐, enabled=true
+;https://raw.githubusercontent.com/Hedilict/QuantumultX/master/Filter/NetEaseCloudMusic.list, tag=🎸网易云音乐, enabled=true
 # 国内域名-直连
 https://api.dler.io/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
 # 国内云服务商IP段-直连
