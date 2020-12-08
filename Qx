@@ -107,7 +107,7 @@ static=📲 电报消息, 🚀 节点选择, 🇸🇬 狮城节点, 🇭🇰 香
 static =📢 谷歌FCM, direct, 🚀 节点选择, 🇺🇲 美国节点, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇰🇷 韩国节点
 static=🎬 YouTube, direct, proxy, reject, 🌍 国外媒体
 static=🛑 广告拦截, REJECT, DIRECT
-static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🎯 全球直连, DIRECT, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
 static=🐟 漏网之鱼, 🚀 节点选择, ♻️ 自动选择, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
@@ -167,7 +167,6 @@ https://api.dler.io/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbn
 https://api.dler.io/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
 # 电报规则-代理
 https://api.dler.io/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
-
 # 国外媒体-代理
 https://api.dler.io/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
 # 国外域名等规则（轻量级）-代理
@@ -268,8 +267,8 @@ http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag= 🎧解锁网�
 
 #本地分流规则(对于完全相同的某条规则，本地的将优先生效)
 [filter_local]
-host-suffix, music.126.net, 🎯 全球直连
-GEOIP,CN,🎯 全球直连
+;host-suffix, music.126.net, 🎯 全球直连
+;GEOIP,CN,🎯 全球直连
 #TIKTOK-去水印广告拦截
 host-suffix, musical.ly, proxy
 host-suffix, tiktokv.com,proxy
