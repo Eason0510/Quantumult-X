@@ -51,7 +51,6 @@
         "0 */3 * * * https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_paopao.js, tag=京东泡泡大战, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_paopao.png, enabled=true",
         "0 */3 * * * https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_new_shop.js, tag=京东新店福利, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true",
         "30 23 * * * https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
-        
         "0 12 * * 1 https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js, tag=每周 Epic 游戏限免, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/epic.png",
         "0 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily·每日环球视野, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/iDaily.png",
         "0 9 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=豆瓣·电影日历, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/douban.png",
@@ -99,7 +98,6 @@
         "23 5 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/hellobike/hellobike.js, tag=哈啰出行, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/hellobike.png",
         "24 5 * * * https://ooxx.be/js/jegotrip.js, tag=无忧行, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/JegoTrip.png",
         "25 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/flyertea.png"
-
         "3 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js , tag=爱奇艺 , img-url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/dragonball/24.PNG",
         "3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js , tag=网易云音乐 , img-url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/dragonball/20.PNG",
         "3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js , tag=腾讯视频 , img-url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/dragonball/14.PNG",
