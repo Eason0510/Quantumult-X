@@ -144,7 +144,6 @@
         "0 9 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付, img-url=https://raw.githubusercontent.com/Orz-3/task/master/unipay.png, enabled=false",
         "10 0 8 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tuhu.png, enabled=false",
         "0 10,22 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/xxysrw.js, tag=小小影视, img-url=https://raw.githubusercontent.com/Orz-3/task/master/xxys.png, enabled=false",
-
         "0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/zscdbSign.js, tag=追书畅读版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/zscdb.png, enabled=false",
     ]
 }
