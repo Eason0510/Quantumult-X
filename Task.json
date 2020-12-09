@@ -52,5 +52,6 @@
         "0 */3 * * * https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_new_shop.js, tag=京东新店福利, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true",
         "30 23 * * * https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
         "0 12 * * 1 https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js, tag=每周 Epic 游戏限免, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/epic.png, enabled=true",
+        "0 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily·每日环球视野, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/iDaily.png",
     ]
 }
