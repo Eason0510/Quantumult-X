@@ -255,7 +255,7 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt, ta
 ;trojan=192.168.1.1:443, password=pwd, over-tls=true, tls-host=example.com, tls-verification=true, fast-open=false, udp-relay=false, tag=trojan-tls-02
 
 #解锁网易云音乐节点
-http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag= 解锁网易云音乐
+;http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag= 解锁网易云音乐
 
 [filter_local]
 host-suffix, music.126.net, 🎯 全球直连
