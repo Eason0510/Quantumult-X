@@ -142,7 +142,8 @@ static=特殊, server-tag-regex=^((?!(?i)(IPLC|IEPL|game|专线|手游|游戏|�
 [server_remote]
 # , tag=小茗,update-interval=86400, opt-parser=true, enabled=true 
 # , tag=Eason, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, update-interval=86400, opt-parser=true, enabled=true
-https://lolico.me/subscribe/QuantumultX/NeteaseMusicServer.txt, tag=Netease Music, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/NeteaseMusicServer.list, tag=Netease Music, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=false, enabled=true
+;https://lolico.me/subscribe/QuantumultX/NeteaseMusicServer.txt, tag=Netease Music, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/limbopro/Profiles/master/limbopro/Gift/unlesssub.txt, tag=无用节点（❌请不要动它）, enabled=true
 # 无用订阅（请勿删除）
 #支持本地/iCloud的节点文件，位于Quantumult X/Profiles路径下
