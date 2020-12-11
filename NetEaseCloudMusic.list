@@ -34,7 +34,7 @@ IP-CIDR,45.254.48.1/32,🎸网易云音乐
 ;DOMAIN-SUFFIX,music.163.com
 ;DOMAIN-SUFFIX,music.126.net
 ;DOMAIN-SUFFIX,music.163.com
-DOMAIN-SUFFIX,api.iplay.163.com
+DOMAIN-SUFFIX,api.iplay.163.com ,🎸网易云音乐
 IP-CIDR,45.254.48.1/32
 IP-CIDR,47.100.127.239/32
 IP-CIDR,59.111.128.0/17
@@ -44,7 +44,7 @@ IP-CIDR,193.112.159.225/32
 IP-CIDR,223.252.192.0/19
 ##### 通用规则 #####
 ;DOMAIN-SUFFIX,music.163.com
-DOMAIN-SUFFIX,api.iplay.163.com
+DOMAIN-SUFFIX,api.iplay.163.com ,🎸网易云音乐
 DOMAIN-SUFFIX,apm.music.163.com
 DOMAIN-SUFFIX,apm3.music.163.com
 DOMAIN-SUFFIX,interface.music.163.com
