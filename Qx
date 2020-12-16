@@ -97,8 +97,7 @@ address=/mtalk.google.com/108.177.125.188
 ;img-url 参数用于指定策略组图标，可远程，也可本地/iCloud(Quantumult X/Images路径下) （108*108 大小）
 ;direct/proxy/reject 则只能用本地图标，名字分别为 direct.png, proxy.png,reject.png 放置于 Images 文件夹下即可生效 (108*108 大小)
 [policy]
-static=📲 电报消息, direct, proxy, reject
-static=🍎 苹果服务, direct, proxy, reject
+
 static=🚀 节点选择, ♻️ 自动选择, 🔮 负载均衡, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Available.png
 available=♻️ 自动选择, server-tag-regex=.*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
 round-robin=🔮 负载均衡, server-tag-regex=.*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Round_Robin.png
@@ -108,6 +107,8 @@ static=🎸网易云音乐, direct, proxy, reject, 🎵 解锁节点1, 🎵 解�
 static =📢 谷歌FCM, direct, 🚀 节点选择, 🇺🇲 美国节点, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇰🇷 韩国节点
 static=🎬 YouTube, direct, proxy, reject, 🌍 国外媒体
 static=🛑 广告拦截, REJECT, DIRECT
+static=📲 电报消息, direct, proxy, reject
+static=🍎 苹果服务, direct, proxy, reject
 static=🎯 全球直连, DIRECT, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
 static=🐟 漏网之鱼, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
@@ -263,12 +264,12 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt, ta
 ;trojan=192.168.1.1:443, password=pwd, over-tls=true, tls-host=example.com, tls-verification=true, fast-open=false, udp-relay=false, tag=trojan-tls-02
 
 #解锁网易云音乐节点
-http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag= 🎧解锁网易云音乐
+;http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag= 🎧解锁网易云音乐
 
 #本地分流规则(对于完全相同的某条规则，本地的将优先生效)
 [filter_local]
-;host-suffix, music.126.net, 🎯 全球直连
-;GEOIP,CN,🎯 全球直连
+host-suffix, music.126.net, 🎯 全球直连
+GEOIP,CN,🎯 全球直连
 #TIKTOK-去水印广告拦截
 host-suffix, musical.ly, proxy
 host-suffix, tiktokv.com,proxy
