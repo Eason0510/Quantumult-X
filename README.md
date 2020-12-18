@@ -2,7 +2,7 @@
 ![Anurag’s github stats](https://github-readme-stats.vercel.app/api?username=Eason0510&show_icons=true&theme=merko)
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Eason0510&show_icons=true&theme=radical)
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Eason0510&count_private=true)
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Eason0510&show_icons=true)
+
 
 # Quantumult-X
 
