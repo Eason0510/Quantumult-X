@@ -215,7 +215,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrit
 https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Q-Search_All_in_one.conf, tag=Q-Search, update-interval=86400, opt-parser=false, enabled=true
 #⚠️ 注意：TikTok 区域解锁重写一次只可启用一个，不可多个地区同时使用。
 #默认为日本区，可直接替换下面地址中最后的TikTokJP.conf为TikTokKR.conf或者TikTokTW.conf或者TikTokUK.conf
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Unlock/TikTokJP.conf, tag=解锁Tiktok(🎵️TikTok-JP), update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Unlock/Test/TikTokJP.plugin, tag=解锁Tiktok(🎵️TikTok-JP), update-interval……=86400, opt-parser=true, enabled=true
 ;https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Unlock/TikTokUS.conf, tag=tiktok, update-interval=86400, opt-parser=false, enabled=true
 ;https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Unlock/TikTokJP.conf, tag=tiktok, update-interval=86400, opt-parser=true, enabled=true
 ;https://gitee.com/bp233/icon/raw/master/1234.txt, tag=解锁Tiktok2(群友提供), update-interval=86400, opt-parser=false, enabled=false
@@ -811,6 +811,10 @@ https:\/\/api88\.awk2\.work\/(user\/info|mov\/browse2*) url script-response-body
 0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/yydkziye.js, tag=音乐line小程序打卡返利, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/wxdaka.png, enabled=false
 #微打卡小程序打卡返利（设定每15分钟打卡一次，请自行根据需要修改打卡间隔。打满可以选择暂时禁用，否则老提示怪烦人）
 0 1/15 0-23 * * ? https://raw.githubusercontent.com/sngxpro/scripts/master/wdk.js, tag=微打卡小程序打卡返利, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/wxdaka.png, enabled=false
+
+[http_backend]
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=BoxJs, path=^/, img-url=https://raw.githubusercontent.com/Orz-3/task/master/box.png, enabled=true
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.js, tag=Sub-Store, path=/, enabled=true
 
 #以下为证书&主机名部分
 ;以下模块去掉;才生效
