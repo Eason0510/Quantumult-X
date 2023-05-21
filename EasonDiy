@@ -57,7 +57,6 @@ circumvent-ipv4-answer = 127.0.0.1, 0.0.0.0
 [http_backend] 
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=BoxJs, path=^/, img-url=https://qxnav.com/rules/QuantumultX/img/box.png, enabled=false
 
-
 [policy]
 static=Outside, proxy, direct, 🇭🇰香港, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 static=Google, direct, proxy, 🇭🇰香港, 🇨🇳台湾, 🇯🇵日本, 🇰🇷韩国, 🇸🇬新加坡,🇺🇸美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
@@ -94,8 +93,6 @@ static=Apple Update, direct, reject, proxy, img-url=https://raw.githubuserconten
 #url-latency-benchmark=美国, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=600, tolerance=0, img-url=https://qxnav.com/rules/QuantumultX/img/US.png
 
 
-
-
 [server_local]
 
 #请使用 Safari 浏览器访问网站。首先下载 证书 (https://qxnav.com/rules/QuantumultX/CA/wyy_ca.crt)，进入「设置」>「通用」>「描述文件」，安装「UnblockNeteaseMusic Root CA」，并在「设置」>「通用」>「关于本机」>「证书信任设置」开启对「UnblockNeteaseMusic Root CA」的信任。
@@ -106,18 +103,17 @@ static=Apple Update, direct, reject, proxy, img-url=https://raw.githubuserconten
 # 自行添加即可
 
 http=124.223.189.117:7978, fast-open=false, udp-relay=false, tag=解锁测试
+
 [server_remote]
 # 节点远程订阅，自行添加
 https://qxnav.com/tool.txt, tag=奇心, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png, update-interval=86400, opt-parser=true, enabled=true
 #解锁网易云灰色音乐原订阅地址：https://git.io/JfNq3
 https://qxnav.com/rules/QuantumultX/gz/wyy.list, tag=网易云解锁灰色, img-url=https://qxnav.com/rules/QuantumultX/img/Netease_Music.png, update-interval=86400, opt-parser=true, enabled=true
-
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg#emoji=2, tag=Jsnzkpg,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSR.png, update-interval=86400, opt-parser=true, enabled=true
-
 # 网易云节点
-
 https://gitlab.com/ioshkj/quantumultx/-/raw/main/wyy.list, tag=解锁网易云灰色, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Clubhouse.png,update-interval=172800, opt-parser=true, enabled=true
 https://git.io/JfNq3, tag=网易云解锁灰色音乐, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=true, enabled=true
+
 [filter_remote]
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=Google (全家桶), force-policy=Google, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Global/Global.list, tag=Outside (境外网站), force-policy=Outside, update-interval=86400, opt-parser=false, enabled=false
