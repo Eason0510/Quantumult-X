@@ -1,4 +1,4 @@
-#  QuantumultX 懒人配置 正式版
+# 奇心 QuantumultX 懒人配置 3.0 正式版
 # “;” “#”为注释符号，去掉前面的符号，该行才会生效
 # 第一次使用本配置，建议先备份自己之前的配置，以防后悔
 
@@ -55,9 +55,12 @@ no-system
 circumvent-ipv4-answer = 127.0.0.1, 0.0.0.0
 
 [http_backend] 
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=BoxJs, path=^/, img-url=https://qxnav.com/rules/QuantumultX/img/box.png, enabled=false
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=BoxJs, path=^/, img-url=https://qxnav.com/rules/QuantumultX/img/box.png, enabled=true
+
 
 [policy]
+static=NetEaseMusic, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease\_Music\_Unlock.png
+;static=NetEaseMusic, direct, proxy, server-tag-regex=(?=.*(music|𝐌𝐮𝐬𝐢𝐜|Unlock|网易云|云音乐|Music|Netease|🎶|解锁)), img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
 static=Outside, proxy, direct, 🇭🇰香港, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 static=Google, direct, proxy, 🇭🇰香港, 🇨🇳台湾, 🇯🇵日本, 🇰🇷韩国, 🇸🇬新加坡,🇺🇸美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 static=Mainland, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
@@ -69,7 +72,7 @@ url-latency-benchmark=优选节点, server-tag-regex=^(?!.*网易云), check-int
 static=自选节点, 优选节点, proxy, server-tag-regex=^(?!.*网易云), img-url=https://qxnav.com/rules/QuantumultX/img/Static.png
 static=海外服务, 自选节点, img-url=https://qxnav.com/rules/QuantumultX/img/Global.png
 static=地理位置, 大陆服务, 自选节点, img-url=https://qxnav.com/rules/QuantumultX/img/localtion.png
-static=网易云音乐, server-tag-regex=(?=.*(网易云|(?i)netease))^((?!(台|日|韩|港|新|美)).)*$, img-url=https://qxnav.com/rules/QuantumultX/img/Netease.png
+;static=网易云音乐, server-tag-regex=(?=.*(网易云|(?i)netease))^((?!(台|日|韩|港|新|美)).)*$, img-url=https://qxnav.com/rules/QuantumultX/img/Netease.png
 static=大陆服务, direct, 自选节点, img-url=https://qxnav.com/rules/QuantumultX/img/China.png
 static=广告屏蔽, reject, img-url=https://qxnav.com/rules/QuantumultX/img/Adblock.png
 static=港台番剧, 大陆服务, 自选节点, img-url=https://qxnav.com/rules/QuantumultX/img/StreamingSE.png
@@ -93,6 +96,8 @@ static=Apple Update, direct, reject, proxy, img-url=https://raw.githubuserconten
 #url-latency-benchmark=美国, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=600, tolerance=0, img-url=https://qxnav.com/rules/QuantumultX/img/US.png
 
 
+
+
 [server_local]
 
 #请使用 Safari 浏览器访问网站。首先下载 证书 (https://qxnav.com/rules/QuantumultX/CA/wyy_ca.crt)，进入「设置」>「通用」>「描述文件」，安装「UnblockNeteaseMusic Root CA」，并在「设置」>「通用」>「关于本机」>「证书信任设置」开启对「UnblockNeteaseMusic Root CA」的信任。
@@ -103,48 +108,44 @@ static=Apple Update, direct, reject, proxy, img-url=https://raw.githubuserconten
 # 自行添加即可
 
 http=124.223.189.117:7978, fast-open=false, udp-relay=false, tag=解锁测试
-
 [server_remote]
-# 节点远程订阅，自行添加
-https://qxnav.com/tool.txt, tag=奇心, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png, update-interval=86400, opt-parser=true, enabled=true
-#解锁网易云灰色音乐原订阅地址：https://git.io/JfNq3
-https://qxnav.com/rules/QuantumultX/gz/wyy.list, tag=网易云解锁灰色, img-url=https://qxnav.com/rules/QuantumultX/img/Netease_Music.png, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg#emoji=2, tag=Jsnzkpg,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSR.png, update-interval=86400, opt-parser=true, enabled=true
-# 网易云节点
-https://gitlab.com/ioshkj/quantumultx/-/raw/main/wyy.list, tag=解锁网易云灰色, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Clubhouse.png,update-interval=172800, opt-parser=true, enabled=true
-https://git.io/JfNq3, tag=网易云解锁灰色音乐, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=true, enabled=true
+https://gist.githubusercontent.com/ddgksf2013/baacafc36c685a0af41e500d9a4773ab/raw/Netease.list, tag=网易, update-interval=172800, opt-parser=true, enabled=false
 
+# 节点远程订阅，自行添加
+;https://qxnav.com/tool.txt, tag=奇心, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png, update-interval=86400, opt-parser=true, enabled=false
+#解锁网易云灰色音乐原订阅地址：https://git.io/JfNq3
+
+;https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg#emoji=2, tag=Jsnzkpg,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSR.png, update-interval=86400, opt-parser=true, enabled=true
+
+# 网易云节点
+
+https://gitlab.com/ioshkj/quantumultx/-/raw/main/wyy.list, tag=解锁网易云灰色, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Clubhouse.png, update-interval=172800, opt-parser=true, enabled=false
+https://git.io/JfNq3, tag=网易云解锁灰色音乐, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=true, enabled=false
+https://mmxz1.meimei1314.xyz//link/QweRgLRa0qDy6o6r?list=quantumultx, tag=MM, img-url=https://github.com/Eason0510/Quantumult-X/blob/main/Img/qita/1.PNG, update-interval=604800, opt-parser=true, enabled=true
 [filter_remote]
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=Google (全家桶), force-policy=Google, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Global/Global.list, tag=Outside (境外网站), force-policy=Outside, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list, tag=Mainland (大陆网站), force-policy=Mainland, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=Apple (Apple服务), force-policy=Apple, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/NetEaseMusic/NetEaseMusic.list, tag=NetEaseMusic (解锁网易云灰色音乐), force-policy=NetEaseMusic, update-interval=86400, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=Google (全家桶), force-policy=自选节点, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Global/Global.list, tag=Outside (境外网站), force-policy=Outside, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list, tag=Mainland (大陆网站), force-policy=Mainland, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=Apple (Apple服务), force-policy=Apple, update-interval=86400, opt-parser=true, enabled=true
 # TikTok分流
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok.list, tag=🎯TikTok分流, force-policy=TikTok, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok.list, tag=🎯TikTok分流, force-policy=TikTok, update-interval=172800, opt-parser=true, enabled=false
 # Unbreak 后续规则修正
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list, tag=🎯规则修正-直连, update-interval=172800, opt-parser=false, enabled=true
 # Advertising 广告
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=🛑轻量广告拦截-拒绝, update-interval=172800, opt-parser=false, enabled=false
 # NobyDa大佬去广告 -默认关闭，自行手动启用！
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=🛑重度广告拦截-拒绝, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
 # Privacy 隐私
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=🛑隐私保护-拒绝, update-interval=172800, opt-parser=true, enabled=false
 # Hijacking 运营商劫持或恶意网站
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=🛑运营商劫持-拒绝, update-interval=172800, opt-parser=false, enabled=false
 # Streaming 国际流媒体服务
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=🎯国际流媒体, force-policy=节点选择, update-interval=172800, opt-parser=false, enabled=true
 # Global 全球加速
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=🎯全球加速, force-policy=节点选择, update-interval=172800, opt-parser=false, enabled=true
 # China 国内网站
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list, tag=🎯国内网站-直连, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 # ChinaIP 中国直连
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=🎯中国IP-直连, update-interval=172800, opt-parser=false, enabled=false
-https://qxnav.com/rules/QuantumultX/gz/overseas.list, tag=海外服务, update-interval=172800, opt-parser=false, enabled=true
-https://qxnav.com/rules/QuantumultX/gz/mainland.list, tag=大陆服务, update-interval=172800, opt-parser=false, enabled=true
-https://qxnav.com/rules/QuantumultX/gz/netease.list, tag=网易云音乐, update-interval=172800, opt-parser=false, enabled=true
-https://qxnav.com/rules/QuantumultX/gz/location.list, tag=地理位置, update-interval=172800, opt-parser=false, enabled=true
-https://qxnav.com/rules/QuantumultX/gz/advertising.list, tag=广告屏蔽, update-interval=86400, opt-parser=false, enabled=true
-https://qxnav.com/rules/QuantumultX/gz/hk-tw.list, tag=港台番剧, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/overseas.list, tag=海外服务, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/mainland.list, tag=大陆服务, update-interval=172800, opt-parser=true, enabled=false
+;https://qxnav.com/rules/QuantumultX/gz/netease.list, tag=网易云音乐, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/location.list, tag=地理位置, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/advertising.list, tag=广告屏蔽, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/hk-tw.list, tag=港台番剧, update-interval=86400, opt-parser=true, enabled=true
 
 [filter_local]
 host-keyword, exitgames.com, 自选节点
@@ -182,41 +183,56 @@ HOST-SUFFIX,openaboc.cn,direct
 HOST-SUFFIX,openaboc.com,direct
 HOST-SUFFIX,openaboc.com.cn,direct
 # 其他
-host-suffix, local, direct
+;host-suffix, local, direct
 host-keyword, merlinblog, proxy
-ip-cidr, 10.0.0.0/8, direct
+;ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
-ip-cidr, 100.64.0.0/10, direct
-ip-cidr, 127.0.0.0/8, direct
-ip-cidr, 172.16.0.0/12, direct
-ip-cidr, 192.168.0.0/16, direct
-geoip, cn, 大陆服务
-final, 大陆服务
+;ip-cidr, 100.64.0.0/10, direct
+;ip-cidr, 127.0.0.0/8, direct
+;ip-cidr, 172.16.0.0/12, direct
+;ip-cidr, 192.168.0.0/16, direct
+;geoip, cn, 大陆服务
+;final, 大陆服务
 
 [rewrite_remote]
+https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js, tag=wy, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/thebestkyle323/Quantumult-x/main/NeteaseMusicVipCrack.js, tag=网易云vip, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/thebestkyle323/Quantumult-x/main/WPSuperVIPuserCrack.js, tag=wpsvip, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/thebestkyle323/Quantumult-x/main/kuake.js, tag=夸克, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/thebestkyle323/Quantumult-x/main/alidrive.js, tag=阿里云盘, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/youtube-qx.conf, tag=yutube去广告, update-interval=172800, opt-parser=true, enabled=true
+https://whatshub.top/rewrite/audiomack.conf, tag=audiomack, update-interval=172800, opt-parser=true, enabled=true
+https://whatshub.top/rewrite/doc.conf, tag=wps稻壳, update-interval=172800, opt-parser=false, enabled=false
+https://whatshub.top/rewrite/WPS.conf, tag=wps, update-interval=172800, opt-parser=true, enabled=false
+https://whatshub.top/rewrite/CamScanner.conf, tag=扫描全能王, update-interval=172800, opt-parser=true, enabled=true
+https://whatshub.top/rewrite/keep.conf, tag=keep, update-interval=172800, opt-parser=true, enabled=true
+https://whatshub.top/rewrite/xxyh.conf, tag=小熊油耗, update-interval=172800, opt-parser=true, enabled=true
+https://whatshub.top/rewrite/Price.conf, tag=历史价格, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/kwyy.js, tag=kuwo, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js, tag=酷我, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/NeteaseMusicVipCrack.js, tag=网易云, update-interval=172800, opt-parser=true, enabled=false
 
 # rewrite 复写远程订阅
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.tf.conf, tag=Boxjs, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_JS.conf, tag=比价等脚本, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/TestFlightDownload.conf , tag=TestFlight区域限制解除, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf, tag=YouTube去广告, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_Cookie.conf, tag=获取Cookie, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_Cookie.conf, tag=获取Cookie, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/qiangxinglin/Emby/main/QuantumultX/emby.conf, tag=Emby Premiere, update-interval=86400, opt-parser=false, enabled=true
-https://qxnav.com/rules/QuantumultX/gz/qxrules.conf, tag=奇心规则合集, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Eason0510/Quantumult-X/main/qxrules.conf, tag=规则合集, update-interval=172800, opt-parser=true, enabled=false
 https://qxnav.com/rules/QuantumultX/gz/bilibili.conf, tag=哔哩哔哩, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/price.conf, tag=比价, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf, tag=去开屏广告, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/zwf234/rules/master/TikTok/US.conf, tag=解锁TikTok（更改后缀换区）, update-interval=86400, opt-parser=true, enabled=false
-https://qxnav.com/rules/QuantumultX/gz/getCookie1.conf, tag=获取Cookie1（获取完就禁用）, update-interval=86400, opt-parser=true, enabled=true
+https://qxnav.com/rules/QuantumultX/gz/getCookie1.conf, tag=获取Cookie1（获取完就禁用）, update-interval=86400, opt-parser=true, enabled=false
 https://qxnav.com/rules/QuantumultX/gz/getCookie.conf, tag=获取Cookie（获取完就禁用）, update-interval=86400, opt-parser=true, enabled=false
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJs, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本, update-interval=172800, opt-parser=false, enabled=true
 
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok解锁, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok解锁, update-interval=172800, opt-parser=false, enabled=false
 
 [rewrite_local]
 #本地复写规则
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(queryTemplates|serverConfig)$ - script-request-header https://raw.githubusercontent.com/chiupam/surge/main/scripts/javascripts/wskey.js
 
 
 
