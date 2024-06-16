@@ -258,19 +258,16 @@ http=124.223.189.117:7978, fast-open=false, udp-relay=false, tag=解锁测试
 https://raw.githubusercontent.com/gitbigg/dy/main/jd#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
 # > 魔法仅供临时使用2
 ;https://sub.sharecentre.online/sub#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
-
-https://gist.githubusercontent.com/ddgksf2013/baacafc36c685a0af41e500d9a4773ab/raw/Netease.list, tag=网易, update-interval=172800, opt-parser=true, enabled=false
-
 # 节点远程订阅，自行添加
 ;https://qxnav.com/tool.txt, tag=奇心, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png, update-interval=86400, opt-parser=true, enabled=false
 #解锁网易云灰色音乐原订阅地址：https://git.io/JfNq3
+# 网易云节点
+https://gist.githubusercontent.com/ddgksf2013/baacafc36c685a0af41e500d9a4773ab/raw/Netease.list, tag=网易, update-interval=172800, opt-parser=true, enabled=false
+https://gitlab.com/ioshkj/quantumultx/-/raw/main/wyy.list, tag=解锁网易云灰色, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Clubhouse.png, update-interval=172800, opt-parser=true, enabled=false
+https://git.io/JfNq3, tag=网易云解锁灰色音乐, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=true, enabled=false
 
 ;https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg#emoji=2, tag=Jsnzkpg,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSR.png, update-interval=86400, opt-parser=true, enabled=true
 
-# 网易云节点
-
-https://gitlab.com/ioshkj/quantumultx/-/raw/main/wyy.list, tag=解锁网易云灰色, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Clubhouse.png, update-interval=172800, opt-parser=true, enabled=false
-https://git.io/JfNq3, tag=网易云解锁灰色音乐, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png, update-interval=86400, opt-parser=true, enabled=false
 https://mmxz1.meimei1314.xyz//link/QweRgLRa0qDy6o6r?list=quantumultx, tag=MM, img-url=https://github.com/Eason0510/Quantumult-X/blob/main/Img/qita/1.PNG, update-interval=604800, opt-parser=true, enabled=true
 
 [dns]
@@ -338,8 +335,8 @@ https://raw.githubusercontent.com/ddgksf2013/Filter/master/Unbreak.list, tag=规
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf, tag=广告终结者, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, tag=微信直连, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list, tag=海外抖音, force-policy=全球加速, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list, tag=Google Voice, force-policy=美国节点, update-interval=172800, opt-parser=true, enabled=true
-https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=OpenAi, force-policy=美国节点, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list, tag=Google Voice, force-policy=美国节点🇺🇸美国, update-interval=172800, opt-parser=true, enabled=true
+https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=OpenAi, force-policy=美国节点🇺🇸美国, update-interval=172800, opt-parser=true, enabled=true
 ;https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify音乐, force-policy=香港节点, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/Streaming.list, tag=国际媒体, force-policy=国际媒体, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list, tag=哔哩哔哩, force-policy=哔哩哔哩, update-interval=172800, opt-parser=true, enabled=true
