@@ -337,7 +337,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list, tag=海外抖音, force-policy=全球加速, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list, tag=Google Voice, force-policy=美国节点🇺🇸美国, update-interval=172800, opt-parser=true, enabled=true
 https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=OpenAi, force-policy=美国节点🇺🇸美国, update-interval=172800, opt-parser=true, enabled=true
-;https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify音乐, force-policy=香港节点, update-interval=172800, opt-parser=true, enabled=true
+;https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify音乐, force-policy=香港节点🇭🇰香港, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/Streaming.list, tag=国际媒体, force-policy=国际媒体, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list, tag=哔哩哔哩, force-policy=哔哩哔哩, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=苹果服务, force-policy=苹果服务, update-interval=172800, opt-parser=true, enabled=true
