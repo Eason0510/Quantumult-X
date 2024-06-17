@@ -316,6 +316,7 @@ static=苹果服务, direct, 香港节点🇭🇰香港, 台湾节点🇨🇳台
 static=大陆服务, direct, 自选节点, img-url=https://qxnav.com/rules/QuantumultX/img/China.png
 static=国际媒体, 自动选择, 台湾节点🇨🇳台湾, direct, 香港节点🇭🇰香港, 日本节点🇯🇵日本, 美国节点🇺🇸美国, 狮城节点🇸🇬新加坡, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
 static=节点选择, 自动选择,香港节点🇭🇰香港, 台湾节点🇨🇳台湾, 日本节点🇯🇵日本, 韩国节点🇰🇷韩国, 狮城节点🇸🇬新加坡, 美国节点🇺🇸美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png
+static=自选节点,  proxy, server-tag-regex=^(?!.*网易云), img-url=https://qxnav.com/rules/QuantumultX/img/Static.png
 static=广告屏蔽, reject, img-url=https://qxnav.com/rules/QuantumultX/img/Adblock.png
 static=地理位置, 大陆服务, 自选节点, img-url=https://qxnav.com/rules/QuantumultX/img/localtion.png
 static=兜底分流, 自动选择, 全球加速, direct, 香港节点🇭🇰香港, 台湾节点🇨🇳台湾, 日本节点🇯🇵日本, 美国节点🇺🇸美国, 狮城节点🇸🇬新加坡, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
